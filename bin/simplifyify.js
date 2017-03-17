@@ -18,6 +18,7 @@ function parseArguments () {
     .option('-b, --bundle', 'Create a non-minified bundle (*.js) for each source file')
     .option('-m, --minify', 'Create a minified bundle (*.min.js) for each source file')
     .option('-v, --test', 'Create a bundle with code-coverage instrumentation (*.test.js)')
+    .option('-e, --vendor', 'Create a vendor bundle (*.vendor.js) for each source file')
     .option('-d, --debug', 'Create a source map (*.js.map) for each bundle')
     .option('-w, --watch', 'Watch source file(s) and rebuild the bundle(s) automatically')
     .option('-o, --outfile <filespec>', 'The output file or directory. May include a filename pattern (e.g. "*.bundle.js")')
